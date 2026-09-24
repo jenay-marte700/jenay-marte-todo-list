@@ -1,11 +1,14 @@
 body {
     font-family: system-ui, sans-serif;
     max-width: 600px;
-    margin: 2rem auto;
+    margin: rem auto;
+    background-color: rgb(136, 223, 210);
+    text-align: center;
 }
 
 header {
     margin-bottom: 1rem;
+    
 }
 
 form,
@@ -13,22 +16,33 @@ form,
     display: flex;
     gap: .5rem;
     margin: .5rem 0;
+    justify-content: center;
+    
 }
 
 input,
 button {
     padding: .5rem .75rem;
+    
 }
+
 
 ul {
     padding-left: 1rem;
+    list-style-position: inside;
 }
 
 li {
     margin: .25rem 0;
 }
 
+li:hover {
+    background-color: rgb(191, 238, 35);
+    cursor: pointer;
+}
+
 .empty {
     opacity: .6;
     font-style: italic;
 }
+
