@@ -2,7 +2,7 @@ body {
     font-family: system-ui, sans-serif;
     
     margin: rem auto;
-    background-color: rgb(136, 223, 210);
+    background-color: rgb(148, 230, 233);
     text-align: center;
 }
 
@@ -37,7 +37,7 @@ li {
 }
 
 li:hover {
-    background-color: rgb(191, 238, 35);
+    background-color: rgb(207, 70, 49);
     cursor: pointer;
 }
 
